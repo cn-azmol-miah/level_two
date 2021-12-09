@@ -23,12 +23,6 @@ mysqli_free_result($result);
 <!-- Header -->
 <?php include("inc/header.php"); ?>
 
-<div id="flag_alert" class="alert alert-success d-flex justify-content-between animate__animated animate__fadeInUp" role="alert">
-    <i class="far fa-flag fa-2x"></i>
-    <div id="flagAlert"></div>
-    <button type="button" class="btn-close" data-bs-dismiss="alert" data-bs-target="#flag_alert" aria-label="Close"></button>
-</div>
-
 <!-- Back Button -->
 <a href="javascript:history.go(-1)" class="btn btn-outline-secondary mb-3"><i class="fas fa-chevron-left"></i> Back</a>
 

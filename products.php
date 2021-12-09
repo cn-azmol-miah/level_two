@@ -24,15 +24,6 @@ $product_table_result = mysqli_query($conn, $product_table_query);
 <?php include("inc/header.php"); ?>
 <?php include("inc/search.php"); ?>
 
-<!-- Flag Six -->
-<?php if (empty($product_table_result)) : ?>
-    <div id="flag_alert" class="alert alert-success d-flex justify-content-between animate__animated animate__fadeInUp" role="alert">
-        <i class="far fa-flag fa-2x"></i>
-        <div id="flagAlert"><?php echo $flag_six['flag_name']; ?></div>
-        <button type="button" class="btn-close" data-bs-dismiss="alert" data-bs-target="#flag_alert" aria-label="Close"></button>
-    </div>
-<?php endif; ?>
-
 <!-- Search Box -->
 <div class="position-relative overflow-hidden p-5 bg-light my-4">
     <h1>Search Products</h1>
